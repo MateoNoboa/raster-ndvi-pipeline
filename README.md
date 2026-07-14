@@ -30,7 +30,7 @@ The pipeline was developed to process telemetry data from three monitored indivi
 
 ---
 
-# Python & Google Earth Engine Setup
+# Python  Setup
 
 Before running the first script, create the required Conda environment.
 
@@ -41,42 +41,6 @@ conda install -c conda-forge earthengine-api -y
 pip install numpy
 ```
 
-Inside R, authenticate Google Earth Engine using **rgee**:
-
-```r
-library(rgee)
-
-ee_Authenticate()
-ee_Initialize()
-```
-
----
-
-# Repository Structure
-
-```
-Rgee/
-│
-├── 01_rgee-setup-and-ndvi-export.R
-├── 02_spatial-ndvi-extraction.R
-├── 03_database-consolidation-and-matching.R
-│
-├── NDVI_Mashca/
-├── NDVI_Diego/
-├── NDVI_Sucre/
-│
-├── mashca_points.csv
-├── diego_points.csv
-├── sucre_points.csv
-│
-├── mashca_ndvi.csv
-├── Diego_ndvi.csv
-├── Sucre_ndvi.csv
-│
-└── Zorros_NDVI.csv
-```
-
----
 
 # Workflow
 
