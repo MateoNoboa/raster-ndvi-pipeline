@@ -143,26 +143,19 @@ Zorros_NDVI.csv
 Before running the extraction scripts, your local directory should resemble the following structure:
 
 ```
-Rgee/
+📁 Rgee/
 │
-├── NDVI_Mashca/
-│   └── *.tif
+├── 📁 NDVI_Mashca/          # Contains downloaded Sentinel-2 NDVI .tif files for Mashca
+├── 📁 NDVI_Diego/           # Contains downloaded Sentinel-2 NDVI .tif files for Diego
+├── 📁 NDVI_Sucre/           # Contains downloaded Sentinel-2 NDVI .tif files for Sucre
 │
-├── NDVI_Diego/
-│   └── *.tif
+├── 📄 mashca_points.csv     # Raw tracking coordinates
+├── 📄 diego_points.csv      # Raw tracking coordinates
+├── 📄 sucre_points.csv      # Raw tracking coordinates
 │
-├── NDVI_Sucre/
-│   └── *.tif
-│
-├── mashca_points.csv
-├── diego_points.csv
-├── sucre_points.csv
-│
-├── mashca_ndvi.csv
-├── Diego_ndvi.csv
-├── Sucre_ndvi.csv
-│
-└── Zorros_NDVI.csv
+├── 📄 mashca_ndvi.csv       # Output from Script 2
+├── 📄 Diego_ndvi.csv        # Output from Script 2
+└── 📄 Sucre_ndvi.csv        # Output from Script 2
 ```
 
 > **Note**
